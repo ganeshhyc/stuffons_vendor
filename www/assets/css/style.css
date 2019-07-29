@@ -1,0 +1,96 @@
+.body-bg{
+    background: linear-gradient(335.21deg, #A40000 0%, rgba(254, 0, 0, 0.63) 100%);
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+.t-100{
+    top:100px;
+}
+.relative{
+    position: relative;
+}
+.stuffons {
+    position: relative;
+    /* left: 65px; */
+    top: 135px;
+
+    font-family: 'Rambla', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 78px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+}
+.circle{
+    border-radius: 50%;
+}
+.br-10{
+    border-radius: 10%;
+}
+.f-64{
+    font-size: 64px;
+}
+.f-18{
+    font-size: 18px;
+}
+.stuffons-content{
+    position: relative;
+    /* left: 113px; */
+    top: 145px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFBFB;
+}
+.food-intro {
+    position: relative;
+    top: 20%;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFBFB;
+    
+}
+.w-200{
+    width:200px;
+}
+.mobile-input {
+    position: relative;
+    width: 289px;
+    height: 50px;
+    top: 25%;
+}
+.inp-mob {
+    background: #883434;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.menu {
+    background-color: #EB5757;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:75px;
+    z-index: 100;
+
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.fff {
+    color : #ffffff;
+}
