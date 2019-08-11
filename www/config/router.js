@@ -15,6 +15,9 @@ app.config(function($routeProvider){
     .when('/otp-signup',{
         templateUrl : 'application/view/register/signup_otp.html'
     })
+    .when('/select-type',{
+        templateUrl : 'application/view/select_business_module.html'
+    })
     .when('/empty',{
         templateUrl : 'application/view/empty.html'
     })
