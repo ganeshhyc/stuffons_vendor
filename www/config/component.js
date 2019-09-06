@@ -1,6 +1,6 @@
 app.directive('navbar',function(){
     return {
-        templateUrl : '../application/component/navbar.html',
+        templateUrl : 'application/component/navbar.html',
         scope : {
             navbarvar : '='
         }
@@ -8,7 +8,15 @@ app.directive('navbar',function(){
 });
 app.directive('round',function(){
     return {
-        templateUrl : '../application/component/round_img.html',
+        templateUrl : 'application/component/round_img.html',
+        scope : {
+            imageurl : '='
+        }
+    }
+});
+app.directive('imgsm',function(){
+    return {
+        templateUrl : 'application/component/round_img_sm.html',
         scope : {
             imageurl : '='
         }
@@ -16,7 +24,7 @@ app.directive('round',function(){
 });
 app.directive('curve',function(){
     return {
-        templateUrl : '../application/component/img_300_curve_edge.html',
+        templateUrl : 'application/component/img_300_curve_edge.html',
         scope : {
             imageurl : '='
         }
@@ -24,7 +32,7 @@ app.directive('curve',function(){
 });
 app.directive('qr',function(){
     return {
-        templateUrl : '../application/component/qr_code.html',
+        templateUrl : 'application/component/qr_code.html',
         scope : {
             hash : '='
         }
@@ -33,7 +41,7 @@ app.directive('qr',function(){
 
 app.directive('menu',function(){
     return {
-        templateUrl : '../application/component/menu_location_review_statistics.html',
+        templateUrl : 'application/component/menu_location_review_statistics.html',
         scope : {
             components : '='
         }
